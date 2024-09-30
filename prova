@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextPlantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nome da planta" />
+
+    <EditText
+        android:id="@+id/editDatePlant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPlantName"
+        android:hint="data de plantio" />
+
+    <EditText
+        android:id="@+id/editDatePlant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDatePlant"
+        android:hint="nivel de cuidado" />
+
+  
+  
+
+
+      
+
+
+
+    }
+}
